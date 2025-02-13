@@ -189,13 +189,6 @@ CLASS net/minecraft/class_1299 net/minecraft/entity/EntityType
 	METHOD method_66663 componentsCopier (Ljava/util/function/Consumer;Lnet/minecraft/class_1799;)Ljava/util/function/Consumer;
 		ARG 0 chained
 		ARG 1 stack
-	CLASS 1
-		METHOD method_31490 (Lnet/minecraft/class_1937;Lnet/minecraft/class_3730;Ljava/util/function/Consumer;Lnet/minecraft/class_2520;)V
-			ARG 3 nbt
-		METHOD method_31491 (Ljava/util/function/Consumer;Lnet/minecraft/class_1297;)Lnet/minecraft/class_1297;
-			ARG 1 entity
-		METHOD tryAdvance (Ljava/util/function/Consumer;)Z
-			ARG 1 action
 	CLASS class_1300 Builder
 		FIELD field_18071 dimensions Lnet/minecraft/class_4048;
 		FIELD field_18982 fireImmune Z

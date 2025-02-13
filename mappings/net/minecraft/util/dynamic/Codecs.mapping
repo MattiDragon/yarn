@@ -179,8 +179,6 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 		ARG 2 value
 	METHOD method_48768 (Lorg/joml/AxisAngle4f;)Lorg/joml/Vector3f;
 		ARG 0 axisAngle
-	METHOD method_48769 (Lorg/joml/Matrix4f;)Ljava/util/List;
-		ARG 0 matrix4f
 	METHOD method_48771 (Ljava/util/List;)Lcom/mojang/serialization/DataResult;
 		ARG 0 list
 	METHOD method_48772 (Lorg/joml/AxisAngle4f;)Ljava/lang/Float;

@@ -108,14 +108,10 @@ CLASS net/minecraft/class_759 net/minecraft/client/render/item/HeldItemRenderer
 		ARG 4 pitch
 		ARG 5 equipProgress
 		ARG 6 swingProgress
-	METHOD method_3233 renderItem (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V
+	METHOD method_3233 renderItem (Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V
 		ARG 1 entity
 		ARG 2 stack
 		ARG 3 renderMode
-		ARG 4 leftHanded
-		ARG 5 matrices
-		ARG 6 vertexConsumers
-		ARG 7 light
 	METHOD method_33302 isChargedCrossbow (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
 	METHOD method_33303 getHandRenderType (Lnet/minecraft/class_746;)Lnet/minecraft/class_759$class_5773;

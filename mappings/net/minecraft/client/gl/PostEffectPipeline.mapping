@@ -28,7 +28,6 @@ CLASS net/minecraft/class_9962 net/minecraft/client/gl/PostEffectPipeline
 			ARG 0 instance
 		METHOD method_62251 (Ljava/util/List;)Lcom/mojang/serialization/DataResult;
 			ARG 0 inputs
-		METHOD method_65202 getShaderProgramKey ()Lnet/minecraft/class_10156;
 		METHOD method_66539 (Lnet/minecraft/class_9962$class_9965;)Ljava/util/stream/Stream;
 			ARG 0 input
 		METHOD method_66540 streamTargets ()Ljava/util/stream/Stream;

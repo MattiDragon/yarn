@@ -278,32 +278,6 @@ CLASS net/minecraft/class_2487 net/minecraft/nbt/NbtCompound
 		COMMENT @see #putFloat(String, float)
 		COMMENT @see AbstractNbtNumber#floatValue()
 		ARG 1 key
-	METHOD method_25926 getUuid (Ljava/lang/String;)Ljava/util/UUID;
-		COMMENT {@return a {@link UUID} from its NBT representation in this compound}
-		COMMENT
-		COMMENT @apiNote Unlike other specialized getters, this method can throw unchecked exceptions.
-		COMMENT It is therefore recommended to call {@link #containsUuid(String)} before getting the
-		COMMENT UUID.
-		COMMENT
-		COMMENT @throws IllegalArgumentException if there is no value with the key or the value
-		COMMENT associated with the key is not a valid
-		COMMENT NBT representation of a UUID
-		COMMENT @see NbtHelper#toUuid(NbtIntArray)
-		COMMENT @see #containsUuid(String)
-		COMMENT @see #putUuid(String, UUID)
-		ARG 1 key
-	METHOD method_25927 putUuid (Ljava/lang/String;Ljava/util/UUID;)V
-		COMMENT Puts a {@link UUID}'s NBT representation to this compound.
-		COMMENT
-		COMMENT @see NbtHelper#fromUuid(UUID)
-		COMMENT @see #containsUuid(String)
-		COMMENT @see #getUuid(String)
-		ARG 1 key
-		ARG 2 value
-	METHOD method_25928 containsUuid (Ljava/lang/String;)Z
-		COMMENT Returns {@code true} if this {@code NbtCompound} contains a valid UUID representation associated with the given key.
-		COMMENT A valid UUID is represented by an int array of length 4.
-		ARG 1 key
 	METHOD method_29141 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/DataResult;
 		ARG 0 dynamic
 	METHOD method_29142 (Lnet/minecraft/class_2487;)Lcom/mojang/serialization/Dynamic;

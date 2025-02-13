@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_6603 net/minecraft/network/packet/s2c/play/ChunkData
 	FIELD field_34862 MAX_SECTIONS_DATA_SIZE I
-	FIELD field_34863 heightmap Lnet/minecraft/class_2487;
+	FIELD field_34863 heightmap Ljava/util/Map;
 	FIELD field_34864 sectionsData [B
 	FIELD field_34865 blockEntities Ljava/util/List;
 	METHOD <init> (Lnet/minecraft/class_2818;)V
@@ -26,7 +26,7 @@ CLASS net/minecraft/class_6603 net/minecraft/network/packet/s2c/play/ChunkData
 		ARG 1 consumer
 		ARG 2 x
 		ARG 3 z
-	METHOD method_38594 getHeightmap ()Lnet/minecraft/class_2487;
+	METHOD method_38594 getHeightmap ()Ljava/util/Map;
 	METHOD method_38595 getWritableSectionsDataBuf ()Lio/netty/buffer/ByteBuf;
 	CLASS class_6604 BlockEntityData
 		FIELD field_34866 localXz I

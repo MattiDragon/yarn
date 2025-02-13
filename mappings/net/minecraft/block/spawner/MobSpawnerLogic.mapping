@@ -12,8 +12,6 @@ CLASS net/minecraft/class_1917 net/minecraft/block/spawner/MobSpawnerLogic
 	FIELD field_9159 lastRotation D
 	FIELD field_9160 maxNearbyEntities I
 	FIELD field_9161 rotation D
-	METHOD method_18085 (DDDLnet/minecraft/class_1297;)Lnet/minecraft/class_1297;
-		ARG 6 entity
 	METHOD method_31588 serverTick (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)V
 		ARG 1 world
 		ARG 2 pos

@@ -102,7 +102,7 @@ CLASS net/minecraft/class_4527 net/minecraft/server/command/TestCommand
 		ARG 3 testsPerRow
 	METHOD method_67016 (Lnet/minecraft/class_10618;Lcom/mojang/brigadier/context/CommandContext;)I
 		ARG 1 context
-	METHOD method_67017 (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)I
+	METHOD method_67017 (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Ljava/util/stream/Stream;
 		ARG 1 pos
 	METHOD method_67018 (Lcom/mojang/brigadier/context/CommandContext;)I
 		ARG 0 context

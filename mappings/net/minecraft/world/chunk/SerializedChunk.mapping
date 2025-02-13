@@ -11,8 +11,6 @@ CLASS net/minecraft/class_2852 net/minecraft/world/chunk/SerializedChunk
 	FIELD field_37663 SECTIONS_KEY Ljava/lang/String;
 	FIELD field_37664 BLOCK_LIGHT_KEY Ljava/lang/String;
 	FIELD field_37665 SKY_LIGHT_KEY Ljava/lang/String;
-	METHOD method_12377 getChunkType (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2808;
-		ARG 0 nbt
 	METHOD method_12385 writeStructures (Lnet/minecraft/class_6625;Lnet/minecraft/class_1923;Ljava/util/Map;Ljava/util/Map;)Lnet/minecraft/class_2487;
 		ARG 0 context
 		ARG 1 pos
@@ -49,10 +47,6 @@ CLASS net/minecraft/class_2852 net/minecraft/world/chunk/SerializedChunk
 	METHOD method_39311 serializeTicks (Lnet/minecraft/class_2487;Lnet/minecraft/class_2791$class_6745;)V
 		ARG 0 nbt
 		ARG 1 schedulers
-	METHOD method_39312 (Lnet/minecraft/class_2248;)Ljava/lang/String;
-		ARG 0 block
-	METHOD method_39313 (Lnet/minecraft/class_3611;)Ljava/lang/String;
-		ARG 0 fluid
 	METHOD method_61793 fromChunk (Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2852;
 		ARG 0 world
 		ARG 1 chunk
@@ -62,8 +56,6 @@ CLASS net/minecraft/class_2852 net/minecraft/world/chunk/SerializedChunk
 		ARG 2 nbt
 	METHOD method_61795 (Lit/unimi/dsi/fastutil/shorts/ShortList;)Lit/unimi/dsi/fastutil/shorts/ShortArrayList;
 		ARG 0 postProcessings
-	METHOD method_61796 (Ljava/lang/String;)Ljava/util/Optional;
-		ARG 0 id
 	METHOD method_61797 (Ljava/util/List;Lnet/minecraft/class_3218;Ljava/util/List;Lnet/minecraft/class_2818;)V
 		ARG 3 chunk
 	METHOD method_61798 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2902$class_2903;[J)V
@@ -73,8 +65,6 @@ CLASS net/minecraft/class_2852 net/minecraft/world/chunk/SerializedChunk
 		ARG 0 blockEntity
 	METHOD method_61800 (Lnet/minecraft/class_1923;ILjava/lang/String;)V
 		ARG 2 error
-	METHOD method_61801 (Ljava/lang/String;)Ljava/util/Optional;
-		ARG 0 id
 	METHOD method_61802 (Lnet/minecraft/class_2520;)Lnet/minecraft/class_2487;
 		ARG 0 entity
 	METHOD method_61803 (Lnet/minecraft/class_1923;ILjava/lang/String;)V

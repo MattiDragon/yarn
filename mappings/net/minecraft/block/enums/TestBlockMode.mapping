@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_10641 net/minecraft/block/enums/TestBlockMode
-	FIELD field_56028 CODEC Lnet/minecraft/class_3542$class_7292;
+	FIELD field_56028 CODEC Lcom/mojang/serialization/Codec;
 	FIELD field_56029 PACKET_CODEC Lnet/minecraft/class_9139;
 	FIELD field_56030 INDEX_MAPPER Ljava/util/function/IntFunction;
 	FIELD field_56031 index I

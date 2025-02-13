@@ -30,29 +30,24 @@ CLASS net/minecraft/class_4587 net/minecraft/client/util/math/MatrixStack
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_22907 multiply (Lorg/joml/Quaternionf;)V
+	METHOD method_22907 multiply (Lorg/joml/Quaternionfc;)V
 		COMMENT Applies the rotation transformation to the top entry.
-		ARG 1 quaternion
 	METHOD method_22909 pop ()V
 		COMMENT Removes the entry at the top of this stack.
-	METHOD method_22911 isEmpty ()Z
-		COMMENT {@return whether this stack contains exactly one entry}
 	METHOD method_23760 peek ()Lnet/minecraft/class_4587$class_4665;
 		COMMENT {@return the entry at the top of this stack}
-	METHOD method_34425 multiplyPositionMatrix (Lorg/joml/Matrix4f;)V
+	METHOD method_34425 multiplyPositionMatrix (Lorg/joml/Matrix4fc;)V
 		COMMENT Multiplies the top position matrix with the given matrix.
 		COMMENT
 		COMMENT <p>This does not update the normal matrix unlike other transformation
 		COMMENT methods.
-		ARG 1 matrix
 	METHOD method_34426 loadIdentity ()V
 		COMMENT Sets the top entry to be the identity matrix.
 	METHOD method_46416 translate (FFF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_49278 multiply (Lorg/joml/Quaternionf;FFF)V
-		ARG 1 quaternion
+	METHOD method_49278 multiply (Lorg/joml/Quaternionfc;FFF)V
 		ARG 2 originX
 		ARG 3 originY
 		ARG 4 originZ
@@ -71,8 +66,7 @@ CLASS net/minecraft/class_4587 net/minecraft/client/util/math/MatrixStack
 			ARG 2 y
 			ARG 3 z
 			ARG 4 dest
-		METHOD method_56821 transformNormal (Lorg/joml/Vector3f;Lorg/joml/Vector3f;)Lorg/joml/Vector3f;
-			ARG 1 vec
+		METHOD method_56821 transformNormal (Lorg/joml/Vector3fc;Lorg/joml/Vector3f;)Lorg/joml/Vector3f;
 			ARG 2 dest
 		METHOD method_56822 copy ()Lnet/minecraft/class_4587$class_4665;
 		METHOD method_56823 computeNormal ()V

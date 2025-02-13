@@ -11,14 +11,10 @@ CLASS net/minecraft/class_9955 net/minecraft/client/render/CloudRenderer
 	METHOD method_62166 scheduleTerrainUpdate ()V
 	METHOD method_62167 isEmpty (I)Z
 		ARG 0 color
-	METHOD method_62168 renderClouds (ILnet/minecraft/class_4063;FLorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/class_243;F)V
+	METHOD method_62168 renderClouds (ILnet/minecraft/class_4063;FLnet/minecraft/class_243;F)V
 		ARG 1 color
 		ARG 2 cloudRenderMode
 		ARG 3 cloudHeight
-		ARG 4 positionMatrix
-		ARG 5 projectionMatrix
-		ARG 6 cameraPos
-		ARG 7 ticks
 	METHOD method_62169 packCloudCell (IZZZZ)J
 		ARG 0 color
 		ARG 1 borderNorth
@@ -59,13 +55,8 @@ CLASS net/minecraft/class_9955 net/minecraft/client/render/CloudRenderer
 		ARG 7 northSouthColor
 		ARG 8 eastWestColor
 		ARG 9 fancy
-	METHOD method_62176 renderClouds (Lnet/minecraft/class_1921;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;FFF)V
+	METHOD method_62176 renderClouds (Lnet/minecraft/class_1921;FFF)V
 		ARG 1 layer
-		ARG 2 positionMatrix
-		ARG 3 projectionMatrix
-		ARG 4 x
-		ARG 5 y
-		ARG 6 z
 	METHOD method_62178 hasBorderNorth (J)Z
 		ARG 0 packed
 	METHOD method_62179 hasBorderEast (J)Z

@@ -151,7 +151,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	FIELD field_51994 portalManager Lnet/minecraft/class_9787;
 	FIELD field_54947 queuedCollisionChecks Ljava/util/List;
 	FIELD field_54948 collidedBlockPositions Lit/unimi/dsi/fastutil/longs/LongSet;
-	FIELD field_55940 fireState Lnet/minecraft/class_1297$class_10628;
 	FIELD field_5951 ridingCooldown I
 	FIELD field_5952 onGround Z
 	FIELD field_5953 firstUpdate Z
@@ -1402,8 +1401,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		ARG 1 pos
 		ARG 2 yaw
 		ARG 3 pitch
-	METHOD method_5726 toNbtList ([F)Lnet/minecraft/class_2499;
-		ARG 1 values
 	METHOD method_5727 shouldRender (DDD)Z
 		ARG 1 cameraX
 		ARG 3 cameraY
@@ -1934,8 +1931,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		COMMENT <p>This is a shortcut of {@code getUuid().toString()}.
 		COMMENT
 		COMMENT @see #getUuid
-	METHOD method_5846 toNbtList ([D)Lnet/minecraft/class_2499;
-		ARG 1 values
 	METHOD method_5847 setHeadYaw (F)V
 		COMMENT Sets the head yaw of this entity.
 		COMMENT
@@ -2254,7 +2249,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_64615 onRemove (Lnet/minecraft/class_1297$class_5529;)V
 		COMMENT Called when the entity is about to be removed.
 		ARG 1 reason
-	METHOD method_65037 checkBlockCollision (Ljava/util/List;Lnet/minecraft/class_1297$class_10629;)V
+	METHOD method_65037 checkBlockCollision (Ljava/util/List;Lnet/minecraft/class_10774$class_10775;)V
 		ARG 1 queuedCollisionChecks
 		ARG 2 state
 	METHOD method_65038 isControlledByPlayer ()Z
@@ -2318,16 +2313,6 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		COMMENT <p>This returns {@code false} unless the entity is a player in spectator game mode.
 	METHOD method_7490 getGravity ()D
 	CLASS class_10365 QueuedCollisionCheck
-	CLASS class_10628 FireState
-		FIELD field_55941 onFire Z
-		FIELD field_55942 inLava Z
-		METHOD method_66656 setOnFire (Z)V
-			ARG 1 onFIre
-	CLASS class_10629 CollisionState
-		METHOD method_66655 update (Lnet/minecraft/class_2680;ZZ)V
-			ARG 1 state
-			ARG 2 blockCollision
-			ARG 3 fluidCollision
 	CLASS class_4738 PositionUpdater
 		METHOD accept (Lnet/minecraft/class_1297;DDD)V
 			ARG 1 entity

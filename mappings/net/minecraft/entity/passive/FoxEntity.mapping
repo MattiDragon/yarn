@@ -106,8 +106,6 @@ CLASS net/minecraft/class_4019 net/minecraft/entity/passive/FoxEntity
 		ARG 1 entity
 	METHOD method_66291 (Lnet/minecraft/class_1309;Lnet/minecraft/class_10583;)Z
 		ARG 1 trusted
-	METHOD method_66292 (Lnet/minecraft/class_2499;Ljava/util/UUID;)V
-		ARG 1 uuid
 	METHOD method_66293 getTrustedEntities ()Ljava/util/stream/Stream;
 	METHOD method_66294 trust (Lnet/minecraft/class_1309;)V
 		ARG 1 entity
@@ -192,8 +190,6 @@ CLASS net/minecraft/class_4019 net/minecraft/entity/passive/FoxEntity
 			ARG 0 index
 		METHOD method_18313 fromBiome (Lnet/minecraft/class_6880;)Lnet/minecraft/class_4019$class_4039;
 			ARG 0 biome
-		METHOD method_18314 byId (Ljava/lang/String;)Lnet/minecraft/class_4019$class_4039;
-			ARG 0 id
 		METHOD method_18317 getIndex ()I
 	CLASS class_4052 FollowParentGoal
 		FIELD field_18104 fox Lnet/minecraft/class_4019;

@@ -108,7 +108,7 @@ CLASS net/minecraft/class_1440 net/minecraft/entity/passive/PandaEntity
 			ARG 2 chance
 		METHOD method_6561 isBambooClose ()Z
 	CLASS class_1443 Gene
-		FIELD field_41673 CODEC Lnet/minecraft/class_3542$class_7292;
+		FIELD field_41673 CODEC Lcom/mojang/serialization/Codec;
 		FIELD field_6785 id I
 		FIELD field_6786 BY_ID Ljava/util/function/IntFunction;
 		FIELD field_6790 recessive Z
@@ -122,8 +122,6 @@ CLASS net/minecraft/class_1440 net/minecraft/entity/passive/PandaEntity
 		METHOD method_6564 getId ()I
 		METHOD method_6566 byId (I)Lnet/minecraft/class_1440$class_1443;
 			ARG 0 id
-		METHOD method_6567 byName (Ljava/lang/String;)Lnet/minecraft/class_1440$class_1443;
-			ARG 0 name
 		METHOD method_6568 isRecessive ()Z
 		METHOD method_6569 getProductGene (Lnet/minecraft/class_1440$class_1443;Lnet/minecraft/class_1440$class_1443;)Lnet/minecraft/class_1440$class_1443;
 			ARG 0 mainGene

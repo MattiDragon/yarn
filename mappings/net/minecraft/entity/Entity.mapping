@@ -2184,6 +2184,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 	METHOD method_63612 collides (Lnet/minecraft/class_243;Lnet/minecraft/class_243;Ljava/util/List;)Z
 		ARG 1 oldPos
 		ARG 2 newPos
+		ARG 3 boxes
 	METHOD method_63613 updateLastPosition ()V
 	METHOD method_63614 updateLastAngles ()V
 	METHOD method_63615 setLastPositionAndAngles (Lnet/minecraft/class_243;FF)V
@@ -2251,7 +2252,7 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		ARG 1 reason
 	METHOD method_65037 checkBlockCollision (Ljava/util/List;Lnet/minecraft/class_10774$class_10775;)V
 		ARG 1 queuedCollisionChecks
-		ARG 2 state
+		ARG 2 collisionHandler
 	METHOD method_65038 isControlledByPlayer ()Z
 	METHOD method_65341 calculateDefaultBoundingBox (Lnet/minecraft/class_243;)Lnet/minecraft/class_238;
 		ARG 1 pos
@@ -2307,6 +2308,10 @@ CLASS net/minecraft/class_1297 net/minecraft/entity/Entity
 		ARG 1 fallDistance
 		ARG 3 damagePerDistance
 		ARG 4 damageSource
+	METHOD method_67632 (Lit/unimi/dsi/fastutil/longs/LongSet;Lnet/minecraft/class_243;Lnet/minecraft/class_243;Lnet/minecraft/class_10774$class_10775;Lnet/minecraft/class_2338;I)V
+		ARG 5 pos
+		ARG 6 version
+	METHOD method_67633 igniteByLava ()V
 	METHOD method_7325 isSpectator ()Z
 		COMMENT {@return whether the entity is a spectator}
 		COMMENT
